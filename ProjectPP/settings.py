@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'declarations',  # Назва вашої бази даних у MySQL Workbench
         'USER': 'root',  # Ім'я користувача для підключення до бази даних
-        'PASSWORD': '09.05.86.78',  # Пароль для підключення
+        'PASSWORD': 'namor2004',  # Пароль для підключення
         'HOST': 'localhost',  # Адреса сервера бази даних (зазвичай 'localhost')
         'PORT': '3306',  # Порт, на якому працює MySQL (зазвичай '3306' для MySQL)
     }
