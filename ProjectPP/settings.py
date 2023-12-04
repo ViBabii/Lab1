@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ProjectPP.urls'
+ROOT_URLCONF = 'api.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'ProjectPP.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'h_declaration',  # Назва вашої бази даних у MySQL Workbench
+        'NAME': 'declarations',  # Назва вашої бази даних у MySQL Workbench
         'USER': 'root',  # Ім'я користувача для підключення до бази даних
         'PASSWORD': '09.05.86.78',  # Пароль для підключення
         'HOST': 'localhost',  # Адреса сервера бази даних (зазвичай 'localhost')

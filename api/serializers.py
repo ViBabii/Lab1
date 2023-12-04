@@ -1,11 +1,5 @@
 from rest_framework import serializers
-from api.models import Declarations, Doctors, Patients, Appointments
-
-
-class DeclarationsSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Declarations
-        fields = "__all__"
+from api.models import Doctors, Patients, Appointments
 
 
 class DoctorsSerializer(serializers.ModelSerializer):
